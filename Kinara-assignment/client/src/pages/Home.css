@@ -1,0 +1,77 @@
+.container{
+    width: 100vw;
+    height: 90vh;
+}
+.HeadingText{
+    text-align: center;
+    background-color: rgb(255, 255, 247);
+}
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .styled-table th {
+    background-color: #e0c2ff;
+  }
+.inputField{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+.searchBox{
+    width: 90vw;
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+  .button-69 {
+    background-color: initial;
+    background-image: linear-gradient(#cf9fff 0, #c081ff 100%);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 4px;
+    outline: 0;
+    text-align: center;
+    transition: all .3s cubic-bezier(.05, .03, .35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    width: 190px;
+  }
+  
+  .button-69:hover {
+    opacity: .7;
+  }
+  
+  .buttonContainer{
+    width: 95vw;
+    margin-top: 5px;
+    display: flex;
+   justify-content: end;
+  }
+  @media screen and (max-width: 1000px) {
+    .button-69 {
+      font-size: 14px;
+      height: 55px;
+      line-height: 55px;
+      width: 150px;
+    }
+  }
+  

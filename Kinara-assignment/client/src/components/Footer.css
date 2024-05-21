@@ -1,0 +1,12 @@
+.FooterConatiner {
+  height: 50px;
+  background-color: rgb(255, 250, 244);
+  text-align: center;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.TextSpan {
+  color: grey;
+  margin-top: 20px;
+}
